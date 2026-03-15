@@ -1,4 +1,4 @@
-# DDSExtractor - .dds texture file extraction and re-importing tool for the PC port of killer7 (and probably No More Heroes too)
+# GHMTexTool - Texture file extraction and re-importing tool for the PC ports of Killer7 and No More Heroes 1/2
 
 **Supported file extensions: .bin, .dat, .sti, .jmb**
 
