@@ -7,6 +7,10 @@ In order to get access to such files, please use: https://github.com/Timo654/No-
 Please beware that this tool may not always work correctly, as the methods that I'm using for extraction and re-importing might not be the best ones. 
 I am still working on improving this tool, and I am always open for feedback.
 
+## Disclaimer
+
+You must provide your own files through legally obtained copies of "Killer7", "No More Heroes" and "No More Heroes 2: Desperate Struggle" specifically in order to use this tool.
+
 ## Usage:
 **Enter a path relative to the DDSExtractor.exe's location, e.g. "test_folder"**
 
