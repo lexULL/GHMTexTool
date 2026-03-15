@@ -24,8 +24,14 @@ You must provide your own files through legally obtained copies of "Killer7", "N
 
 **--bintodds**: for fixed and hashed .bin GCT0 texture files from No More Heroes, it converts them into DXT1 DDS image files.
 
-## Requirements:
-VCRedist: **https://aka.ms/vs/17/release/vc_redist.x64.exe**
+## How to build
+You can build using the latest [CMake](https://cmake.org/) on Windows and Linux platforms.
+```bash
+git clone https://github.com/lexULL/GHMTexTool/
+cd GHMTexTool/
+cmake -Bb
+cmake --build b
+```
 
 ## Additional credits:
 - **SutandoTsukai181**: No More Hashes (https://web.archive.org/web/20230319040222/https://gist.github.com/SutandoTsukai181/dfe6884ee1254791ab166a0e876dda39)
