@@ -2,6 +2,7 @@
 #define HASHER_H
 
 #include "inc_wrapper.h"
+#include <stdexcept>
 
 // implementation from: https://web.archive.org/web/20230319040222/https://gist.github.com/SutandoTsukai181/dfe6884ee1254791ab166a0e876dda39
 // credit to SutandoTsukai181
@@ -56,7 +57,7 @@ namespace hasher
 
         if (!file.is_open())
         {
-            throw std::exception("Error: File could not be opened");
+            throw std::runtime_error("Error: File could not be opened");
         }
 
         int start = 0;
@@ -308,7 +309,7 @@ namespace hasher
         {
             int currentPos = start + index * 4;
             if (currentPos >= size) {
-                break;  // Ensure we donft read past the end of the buffer
+                break;  // Ensure we donï¿½ft read past the end of the buffer
             }
 
             int textureValue = bigEndian
